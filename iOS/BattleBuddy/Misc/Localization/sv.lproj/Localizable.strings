@@ -66,15 +66,15 @@
 "main_menu_ammo" = "Ammunition";
 "main_menu_armor" = "Skyddsvästar";
 "main_menu_ballistics" = "Ballistik";
-"main_menu_firearms" = "Eldhandvapen";
-"main_menu_medical" = "Medicinsk";
+"main_menu_firearms" = "Eldvapen";
+"main_menu_medical" = "Läkemedel";
 "main_menu_melee" = "Närstridsvapen";
-"main_menu_throwables" = "Kastvapen";
+"main_menu_throwables" = "Granater";
 "main_menu_health_calc" = "Skadeberäknare";
 
 // MARK: - Sub-Categories
 "firearm_types" = "Vapentyper";
-"calibers" = "Kalibrar";
+"calibers" = "Kalibrer";
 
 // MARK: - Calculators
 "pen_chance" = "Penetrationschans";
@@ -101,7 +101,7 @@
 "helmets" = "Hjälmar";
 "ballistics" = "Ballistik";
 "health" = "Hälsa";
-"firearms" = "Eldhandvapen";
+"firearms" = "Eldvapen";
 "ammunition" = "Ammunition";
 "body_armor" = "Skyddsvästar";
 "medical_items" = "Medicinska artiklar";
@@ -115,14 +115,14 @@
 "performance" = "Prestanda";
 "ergonomics" = "Ergonomi";
 "ergo" = "Ergo";
-"vertical_recoil" = "Vertikal Rekyl";
+"vertical_recoil" = "Vertikal rekyl";
 "horizontal_recoil" = "Horisontell rekyl";
 "recoil" = "Rekyl";
 
 // MARK: - Weapons
 "weapon_class" = "Klass";
-"assault_rifle" = "Angreppsgevär";
-"assault_carbine" = "Anfallskarbin";
+"assault_rifle" = "Automatkarbiner";
+"assault_carbine" = "Automatgevär";
 "sniper_rifle" = "Prickskyttegevär";
 "designated_marksman_rifle" = "Skarpskyttegevär";
 "pistol" = "Pistol";
@@ -137,7 +137,7 @@
 "build_wizard" = "Bygg-guiden";
 "gun_build_custom" = "Anpassad";
 "gun_build_recoil" = "Minimal rekyl";
-"gun_build_ergo" = "Maximal Ergonomi";
+"gun_build_ergo" = "Maximal ergonomi";
 "gun_build_random" = "Slumpmässig";
 "fire_mode" = "Avtryckarläge";
 "fire_modes" = "Avtryckarlägen";
@@ -146,12 +146,12 @@
 "fire_mode_burst" = "Burst";
 "fire_mode_semi_short" = "Semi";
 "fire_mode_auto_short" = "Auto";
-"fire_mode_burst_short" = "Burst";
+"fire_mode_burst_short" = "Salva";
 "action" = "Mekanism";
-"action_type_pump" = "Pump Action";
-"action_type_bolt" = "Bolt Action";
+"action_type_pump" = "Pumpmekanism";
+"action_type_bolt" = "Cylindermekanism";
 "action_type_pump_short" = "Pump";
-"action_type_bolt_short" = "Bolt";
+"action_type_bolt_short" = "Cyl.";
 "build" = "Bygg";
 "build_this_gun" = "Bygg det här vapnet";
 
@@ -164,7 +164,7 @@
 "compare_preset_full_auto_pistols" = "Helautomatiska pistoler";
 "compare_preset_pistols_caliber_match" = "Pistoler med samma kaliber";
 "compare_preset_pistols" = "Pistoler";
-"compare_preset_manual_shotguns" = "Manuella handeldvapen";
+"compare_preset_manual_shotguns" = "Manuella hagelgevär";
 "compare_preset_shotguns" = "Hagelgevär";
 "compare_preset_smgs_caliber_match" = "Kulsprutepistoler med samma kaliber";
 "compare_preset_smgs" = "Kulsprutepistoler";
@@ -177,8 +177,8 @@
 "subsonic" = "Subsonisk";
 "tracer" = "Spårljus";
 "muzzle_velocity" = "Utgångshastighet (m/s)";
-"compatible_firearms" = "Kompatibla skjutvapen";
-"rpm" = "Rundor per minut";
+"compatible_firearms" = "Kompatibla eldvapen";
+"rpm" = "skott per minut";
 "meters_abbr" = "m";
 "seconds_abbr" = "s";
 
@@ -250,13 +250,13 @@
 "hp_resource" = "Totalt HP";
 "removes_bloodloss" = "Stoppar blödning";
 "removes_contusion" = "Tar bort kontusion";
-"removes_fracture" = "Tar bort frakturen";
+"removes_fracture" = "Tar bort fraktur";
 "removes_pain" = "Tar bort smärta";
 "hydration_modifier" = "Törstmodifierare";
 "energy_modifier" = "Energimodifierare";
 
 // MARK: - Throwables
-"throwable_frag" = "Frag";
+"throwable_frag" = "Handgranat";
 "throwable_flash" = "Distraktionsgranat";
 "throwable_smoke" = "Rökgranat";
 "fuse_time" = "Stubinstid";
